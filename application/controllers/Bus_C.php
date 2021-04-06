@@ -70,8 +70,7 @@ Class Bus_C extends CI_Controller
         $data['iBusNo'] = $this->uri->segment(3);
        // $data['busNo'] = $this->input->post('iBusNo');
       
-
-        $this->load->view('BookBus_V',$data);
+    $this->load->view('BookBus_V',$data);
 
 
       //   $this->load->model('User_M');
